@@ -1,6 +1,5 @@
-<image src="https://spoo.me/static/images/banner-rounded.png">
 
-<h3 align="center">spoo.me</h3>
+<h3 align="center"></h3>
 <p align="center">Shorten Your Url not Your Possibilities 🚀</p>
 
 <p align="center">
