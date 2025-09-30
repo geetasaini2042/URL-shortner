@@ -72,4 +72,6 @@ def cleanup():
 
 
 if __name__ == "__main__":
-    app.run(port=8000, use_reloader=True)
+    # Render और कई प्लेटफॉर्म PORT environment variable देते हैं
+    # 반드시 0.0.0.0 पर बाइंड करें ताकि बाहरी कनेक्शन मिल सके
+    app.run(host="0.0.0.0", port=8000, debug=False, use_reloader=False)
