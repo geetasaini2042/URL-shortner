@@ -2,7 +2,7 @@ services:
   - type: web
     runtime: python
     name: url-shortener
-    repo: https://github.com/spoo-me/url-shortener
+    repo: https://github.com/geetasaini2042/URL-shortner
     plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn main:app
